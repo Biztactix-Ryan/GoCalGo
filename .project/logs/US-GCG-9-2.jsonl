@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T15:32:53.442302Z","outcome":"success","status":"done","note":"Created offline_cached_display_test.dart with 6 tests: server error fallback, SocketException fallback, getActiveEvents offline filtering, no-cache-throws, full field preservation offline, and repeated offline read consistency. All tests pass.","actor":"unknown"}

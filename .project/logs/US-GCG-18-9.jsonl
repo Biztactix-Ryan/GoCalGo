@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T05:39:14.226274Z","outcome":"success","status":"done","note":"Created scripts/seed-data.sql with 8 sample events (Community Day, Spotlight Hour, Raid Hour, multi-day Event, GBL, Rocket Takeover, Season) and associated buffs. Added Reset database and Seed data sections to README.md migration docs.","actor":"unknown"}

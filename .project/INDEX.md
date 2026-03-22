@@ -1,0 +1,13 @@
+# GoCalGo
+
+| Metric | Count |
+| ------ | ----- |
+| Epics | 5 |
+| Stories | 36 |
+| Tasks | 281 |
+
+## Indexes
+
+- [Epics](INDEX-EPICS.md)
+- [Stories](INDEX-STORIES.md)
+- [Tasks](INDEX-TASKS.md)

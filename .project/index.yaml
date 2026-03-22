@@ -1,0 +1,2609 @@
+entries:
+- id: EPIC-GCG-1
+  title: Infrastructure & Project Setup
+  type: epic
+  status: active
+  points: null
+  story_id: null
+  epic_id: null
+  tags: []
+- id: EPIC-GCG-2
+  title: Core Event Calendar (Phase 1)
+  type: epic
+  status: active
+  points: null
+  story_id: null
+  epic_id: null
+  tags: []
+- id: EPIC-GCG-3
+  title: Push Notifications (Phase 2)
+  type: epic
+  status: draft
+  points: null
+  story_id: null
+  epic_id: null
+  tags: []
+- id: EPIC-GCG-4
+  title: App Store Release (Phase 3)
+  type: epic
+  status: draft
+  points: null
+  story_id: null
+  epic_id: null
+  tags: []
+- id: EPIC-GCG-5
+  title: Developer Experience & Quality
+  type: epic
+  status: active
+  points: null
+  story_id: null
+  epic_id: null
+  tags: []
+- id: US-GCG-1
+  title: Repository structure and project scaffolding
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-10
+  title: FCM device token registration
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-3
+  tags: []
+- id: US-GCG-11
+  title: Server-side push notification scheduling
+  type: story
+  status: active
+  points: 8
+  story_id: null
+  epic_id: EPIC-GCG-3
+  tags: []
+- id: US-GCG-12
+  title: Flutter push notification handling
+  type: story
+  status: active
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-3
+  tags: []
+- id: US-GCG-13
+  title: App store assets and metadata
+  type: story
+  status: active
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-4
+  tags: []
+- id: US-GCG-14
+  title: Performance and accessibility review
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-4
+  tags: []
+- id: US-GCG-15
+  title: App store submission
+  type: story
+  status: active
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-4
+  tags: []
+- id: US-GCG-16
+  title: Firebase project setup and configuration
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-17
+  title: iOS and Android app signing setup
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-18
+  title: Database migrations strategy and tooling
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-19
+  title: Environment configuration and secrets management
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-2
+  title: Local development environment with Docker Compose
+  type: story
+  status: active
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-20
+  title: ScrapedDuck API exploration and data contract definition
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-21
+  title: Redis cache service implementation
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-22
+  title: Timezone handling service
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-23
+  title: Upcoming events and multi-day calendar view
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-24
+  title: Event filtering and search
+  type: story
+  status: active
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-25
+  title: First-launch onboarding experience
+  type: story
+  status: active
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-26
+  title: Data freshness indicator and sync status
+  type: story
+  status: done
+  points: 2
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-27
+  title: Error empty and loading state screens
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-28
+  title: Notification preferences and settings screen
+  type: story
+  status: active
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-3
+  tags: []
+- id: US-GCG-29
+  title: Backend structured logging and error tracking
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-3
+  title: Coolify deployment pipeline
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-1
+  tags: []
+- id: US-GCG-30
+  title: .NET backend unit and integration test infrastructure
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-31
+  title: Flutter unit and widget test infrastructure
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-32
+  title: CI pipeline with automated testing and linting
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-33
+  title: Code quality tooling and linting configuration
+  type: story
+  status: active
+  points: 2
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-34
+  title: API versioning and documentation
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-35
+  title: End-to-end integration testing
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-5
+  tags: []
+- id: US-GCG-36
+  title: Backend graceful degradation and resilience
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-4
+  title: Backend event ingestion from ScrapedDuck
+  type: story
+  status: done
+  points: 8
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-5
+  title: REST API for serving event data
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-6
+  title: Flutter app scaffold and navigation
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-7
+  title: Daily event calendar view
+  type: story
+  status: done
+  points: 8
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-8
+  title: On-device event flagging
+  type: story
+  status: done
+  points: 3
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-9
+  title: Offline data sync and local caching
+  type: story
+  status: done
+  points: 5
+  story_id: null
+  epic_id: EPIC-GCG-2
+  tags: []
+- id: US-GCG-1-1
+  title: 'Test: Flutter project created with standard structure'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-2
+  title: 'Test: .NET minimal API project created with standard structure'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-3
+  title: 'Test: Solution/workspace file connects both projects'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-4
+  title: 'Test: README with setup instructions exists'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-5
+  title: 'Test: .gitignore covers Dart and .NET artifacts'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-6
+  title: Scaffold Flutter project with standard directory structure
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-7
+  title: Scaffold .NET minimal API project
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-1-8
+  title: Create repository structure and shared configuration
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-1
+  epic_id: null
+  tags: []
+- id: US-GCG-10-1
+  title: 'Test: Flutter app requests and obtains FCM device token'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-2
+  title: 'Test: Token is sent to the .NET backend on first launch and on refresh'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-3
+  title: 'Test: Backend stores device tokens in PostgreSQL'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-4
+  title: 'Test: Backend validates incoming token registrations to prevent abuse'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-5
+  title: 'Test: Token refresh is handled automatically when FCM rotates tokens'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-6
+  title: Integrate firebase_messaging package in Flutter
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-7
+  title: Implement backend device token registration endpoint
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-10-8
+  title: Send token from Flutter to backend on launch and refresh
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-10
+  epic_id: null
+  tags: []
+- id: US-GCG-11-1
+  title: 'Test: When a user flags an event the flag and FCM token are sent to the
+    backend'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-10
+  title: Implement unflag cancellation logic
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-2
+  title: 'Test: Backend schedules a notification for the flagged event''s end time
+    minus a configurable buffer'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-3
+  title: 'Test: Notification scheduling accounts for the user''s local timezone'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-4
+  title: 'Test: Notifications are delivered via FCM to both iOS and Android'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-5
+  title: 'Test: Unflagging an event cancels the scheduled notification'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-6
+  title: 'Test: Notifications include event name and remaining time'
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-7
+  title: Implement backend flag sync endpoint
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-8
+  title: Implement notification scheduler service
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-11-9
+  title: Implement FCM notification delivery
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-11
+  epic_id: null
+  tags: []
+- id: US-GCG-12-1
+  title: 'Test: Push notifications display correctly on both iOS and Android'
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-12
+  epic_id: null
+  tags: []
+- id: US-GCG-12-2
+  title: 'Test: Tapping a notification opens the app to the relevant event'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-12
+  epic_id: null
+  tags: []
+- id: US-GCG-12-3
+  title: 'Test: Notifications work when the app is in foreground background and terminated
+    states'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-12
+  epic_id: null
+  tags: []
+- id: US-GCG-12-4
+  title: 'Test: iOS notification permissions are requested appropriately'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-12
+  epic_id: null
+  tags: []
+- id: US-GCG-12-5
+  title: Configure Flutter notification display and permissions
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-12
+  epic_id: null
+  tags: []
+- id: US-GCG-12-6
+  title: Implement notification tap handling and deep linking
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-12
+  epic_id: null
+  tags: []
+- id: US-GCG-13-1
+  title: 'Test: App icon designed and exported for all required sizes (iOS and Android)'
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-2
+  title: 'Test: Splash screen implemented'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-3
+  title: 'Test: App Store and Google Play listing descriptions written'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-4
+  title: 'Test: Screenshots captured for required device sizes'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-5
+  title: 'Test: Privacy policy page created (required for both stores)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-6
+  title: Design and export app icons for all platforms
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-7
+  title: Implement splash screen
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-13-8
+  title: Write store listing metadata and create privacy policy
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-13
+  epic_id: null
+  tags: []
+- id: US-GCG-14-1
+  title: 'Test: App startup time is under 2 seconds'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-14-2
+  title: 'Test: Scrolling and transitions are smooth (60fps)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-14-3
+  title: 'Test: Basic accessibility labels are on all interactive elements'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-14-4
+  title: 'Test: App works on small and large screen sizes'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-14-5
+  title: 'Test: Memory usage is reasonable and no leaks detected'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-14-6
+  title: Profile app performance and fix bottlenecks
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-14-7
+  title: Accessibility review and fixes
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-14
+  epic_id: null
+  tags: []
+- id: US-GCG-15-1
+  title: 'Test: iOS build signed and submitted to App Store Connect'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-15-2
+  title: 'Test: Android build signed and submitted to Google Play Console'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-15-3
+  title: 'Test: Both submissions pass initial automated review checks'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-15-4
+  title: 'Test: App is approved and live on both stores'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-15-5
+  title: Build and sign iOS release
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-15-6
+  title: Build and sign Android release
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-15-7
+  title: Submit for review and address feedback
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-15
+  epic_id: null
+  tags: []
+- id: US-GCG-16-1
+  title: 'Test: Firebase project created with appropriate naming'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-2
+  title: 'Test: FCM enabled in the Firebase console'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-3
+  title: 'Test: iOS and Android apps registered in Firebase'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-4
+  title: 'Test: google-services.json and GoogleService-Info.plist generated'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-5
+  title: 'Test: Firebase Admin SDK service account credentials generated for the .NET
+    backend'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-6
+  title: 'Test: Credentials stored securely (not committed to git)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-7
+  title: Create Firebase project and enable FCM
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-8
+  title: Register iOS and Android apps in Firebase
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-16-9
+  title: Configure Firebase credentials in project
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-16
+  epic_id: null
+  tags: []
+- id: US-GCG-17-1
+  title: 'Test: Apple Developer account configured with app ID and provisioning profile'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-2
+  title: 'Test: Android keystore generated and stored securely'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-3
+  title: 'Test: Flutter build configs reference signing credentials via environment
+    variables'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-4
+  title: 'Test: Release builds succeed for both iOS and Android'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-5
+  title: 'Test: Signing credentials are documented but not committed to git'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-6
+  title: Configure Apple Developer account and iOS provisioning
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-7
+  title: Generate Android keystore and configure signing
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-17-8
+  title: Document signing setup and verify release builds
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-17
+  epic_id: null
+  tags: []
+- id: US-GCG-18-1
+  title: 'Test: EF Core migrations project is set up and configured'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-2
+  title: 'Test: Initial migration creates the base schema'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-3
+  title: 'Test: Migrations run automatically on app startup in development'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-4
+  title: 'Test: Migration CLI commands documented (add/apply/rollback)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-5
+  title: 'Test: Seed data script exists for local development'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-6
+  title: 'Test: Production migration strategy documented (manual apply vs auto-migrate)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-7
+  title: Set up EF Core with DbContext and initial configuration
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-8
+  title: Create initial migration with event schema
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-18-9
+  title: Create seed data and document migration workflow
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-18
+  epic_id: null
+  tags: []
+- id: US-GCG-19-1
+  title: 'Test: appsettings.json and appsettings.Development.json configured with
+    sensible defaults'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-2
+  title: 'Test: .env.example documents all required environment variables'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-3
+  title: 'Test: Docker Compose passes environment variables to services'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-4
+  title: 'Test: Configuration is strongly typed using IOptions pattern in .NET'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-5
+  title: 'Test: Sensitive values (DB password and Firebase credentials and API keys)
+    are loaded from environment only'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-6
+  title: 'Test: Flutter app reads API base URL from build-time environment config'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-7
+  title: Set up .NET strongly-typed configuration with IOptions
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-8
+  title: Configure Flutter environment-specific settings
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-19-9
+  title: Create .env.example and Docker Compose env integration
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-19
+  epic_id: null
+  tags: []
+- id: US-GCG-2-1
+  title: 'Test: docker compose up starts PostgreSQL Redis and .NET API'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-2
+  title: 'Test: PostgreSQL is accessible on a standard local port'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-3
+  title: 'Test: Redis is accessible on a standard local port'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-4
+  title: 'Test: .NET API connects to local PostgreSQL and Redis'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-5
+  title: 'Test: Environment variables are documented'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-6
+  title: Create docker-compose.yml with PostgreSQL and Redis
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-7
+  title: Add .NET API Dockerfile and compose service
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-2-8
+  title: Document environment variables and local setup
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-2
+  epic_id: null
+  tags: []
+- id: US-GCG-20-1
+  title: 'Test: ScrapedDuck API endpoints documented with example responses'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-2
+  title: 'Test: Event types identified and catalogued (community day and spotlight
+    hour and raid hour etc)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-3
+  title: 'Test: Buff/bonus data structure understood and mapped'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-4
+  title: 'Test: Internal event data contract defined as shared DTOs'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-5
+  title: 'Test: Edge cases identified (multi-day events and recurring events and timezone
+    quirks)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-6
+  title: 'Test: API reliability and rate limits assessed'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-7
+  title: Explore ScrapedDuck API and document endpoints
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-20-8
+  title: Define internal event data contract (DTOs)
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-20
+  epic_id: null
+  tags: []
+- id: US-GCG-21-1
+  title: 'Test: Redis client configured and registered in DI'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-2
+  title: 'Test: Cache service implements get/set/invalidate with configurable TTL'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-3
+  title: 'Test: Cache-aside pattern: check Redis then fall back to PostgreSQL'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-4
+  title: 'Test: Cache is refreshed by the ingestion job on each successful fetch'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-5
+  title: 'Test: Cache handles Redis downtime gracefully (falls back to DB without
+    errors)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-6
+  title: 'Test: Cache keys are namespaced and documented'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-7
+  title: Configure Redis client with StackExchange.Redis
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-8
+  title: Implement cache service with cache-aside pattern
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-21-9
+  title: Implement Redis graceful fallback on outage
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-21
+  epic_id: null
+  tags: []
+- id: US-GCG-22-1
+  title: 'Test: Backend stores event times with timezone metadata from ScrapedDuck'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-2
+  title: 'Test: API responses include timezone-aware timestamps'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-3
+  title: 'Test: Flutter app converts and displays times in device local timezone'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-4
+  title: 'Test: Events that use local time (same wall-clock time everywhere) are handled
+    correctly'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-5
+  title: 'Test: Events with fixed UTC times are converted to local display correctly'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-6
+  title: 'Test: Unit tests cover timezone edge cases (DST transitions and date boundary
+    crossings)'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-7
+  title: Implement backend timezone metadata storage and API response format
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-8
+  title: Implement Flutter timezone conversion and display
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-22-9
+  title: Write timezone edge case unit tests
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-22
+  epic_id: null
+  tags: []
+- id: US-GCG-23-1
+  title: 'Test: Upcoming events screen shows events for the next 7 days'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-2
+  title: 'Test: Events are grouped by day with clear date headers'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-3
+  title: 'Test: Multi-day events span correctly across days'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-4
+  title: 'Test: User can scroll through upcoming days'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-5
+  title: 'Test: Each event card shows type badge and key buffs/bonuses'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-6
+  title: 'Test: Navigation between today view and upcoming view is intuitive'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-7
+  title: Build upcoming events screen with day grouping
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-23-8
+  title: Add navigation between today and upcoming views
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-23
+  epic_id: null
+  tags: []
+- id: US-GCG-24-1
+  title: 'Test: Filter chips or tabs for event types are available on event list screens'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-24-2
+  title: 'Test: Filtering is instant and works on cached data'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-24-3
+  title: 'Test: Active filters persist during the session'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-24-4
+  title: 'Test: Filter state resets on app relaunch'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-24-5
+  title: 'Test: Empty state shown when no events match the filter'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-24-6
+  title: Implement event type filter chips
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-24-7
+  title: Add filter state management
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-24
+  epic_id: null
+  tags: []
+- id: US-GCG-25-1
+  title: 'Test: 2-3 screen onboarding carousel on first launch'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-25-2
+  title: 'Test: Explains: see today''s buffs and flag events and get notified'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-25-3
+  title: 'Test: Skip button available on every screen'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-25-4
+  title: 'Test: Onboarding only shows once (tracked in local storage)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-25-5
+  title: 'Test: After onboarding user lands on the daily events view'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-25-6
+  title: Build onboarding carousel screens
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-25-7
+  title: Implement first-launch detection and routing
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-25
+  epic_id: null
+  tags: []
+- id: US-GCG-26-1
+  title: 'Test: Last sync timestamp displayed on the main screen'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-26
+  epic_id: null
+  tags: []
+- id: US-GCG-26-2
+  title: 'Test: Visual indicator when data is stale (older than 1 hour)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-26
+  epic_id: null
+  tags: []
+- id: US-GCG-26-3
+  title: 'Test: Sync-in-progress indicator during refresh'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-26
+  epic_id: null
+  tags: []
+- id: US-GCG-26-4
+  title: 'Test: Offline mode banner when no network connection'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-26
+  epic_id: null
+  tags: []
+- id: US-GCG-26-5
+  title: 'Test: Manual refresh option available'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-26
+  epic_id: null
+  tags: []
+- id: US-GCG-26-6
+  title: Implement data freshness tracking and display
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-26
+  epic_id: null
+  tags: []
+- id: US-GCG-27-1
+  title: 'Test: Loading skeleton or spinner shown while fetching data'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-27-2
+  title: 'Test: Empty state screen when no events are active today'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-27-3
+  title: 'Test: Error state screen with retry button on API failure'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-27-4
+  title: 'Test: Network error state with offline mode explanation'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-27-5
+  title: 'Test: All states are visually consistent with the app theme'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-27-6
+  title: Build loading skeleton screens
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-27-7
+  title: Build error and empty state screens
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-27
+  epic_id: null
+  tags: []
+- id: US-GCG-28-1
+  title: 'Test: Settings screen accessible from main navigation'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-2
+  title: 'Test: Toggle to enable/disable all notifications'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-3
+  title: 'Test: Configurable notification lead time (5 min/15 min/30 min/1 hour before
+    event ends)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-4
+  title: 'Test: Option to filter which event types trigger notifications'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-5
+  title: 'Test: Settings persist locally and sync to backend'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-6
+  title: 'Test: Settings screen shows current notification permission status with
+    link to system settings'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-7
+  title: Build settings screen UI
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-28-8
+  title: Implement settings persistence and backend sync
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-28
+  epic_id: null
+  tags: []
+- id: US-GCG-29-1
+  title: 'Test: Serilog configured with structured JSON output'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-2
+  title: 'Test: Log levels used consistently (Information for business events and
+    Warning for degraded states and Error for fai...'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-3
+  title: 'Test: ScrapedDuck ingestion job logs fetch results with event counts and
+    timing'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-4
+  title: 'Test: API request logging with correlation IDs'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-5
+  title: 'Test: Health check endpoint reports subsystem status (DB and Redis and ScrapedDuck
+    last fetch)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-6
+  title: 'Test: Logs are viewable in Coolify dashboard'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-7
+  title: Configure Serilog with structured JSON logging
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-29-8
+  title: Add observability to ingestion job and health endpoint
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-29
+  epic_id: null
+  tags: []
+- id: US-GCG-3-1
+  title: 'Test: Dockerfile builds the .NET API successfully'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-3
+  epic_id: null
+  tags: []
+- id: US-GCG-3-2
+  title: 'Test: Coolify webhook triggers on push to main'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-3
+  epic_id: null
+  tags: []
+- id: US-GCG-3-3
+  title: 'Test: Container deploys and runs on Coolify infrastructure'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-3
+  epic_id: null
+  tags: []
+- id: US-GCG-3-4
+  title: 'Test: Environment variables configured in Coolify for DB and Redis connections'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-3
+  epic_id: null
+  tags: []
+- id: US-GCG-3-5
+  title: Create production Dockerfile for .NET API
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-3
+  epic_id: null
+  tags: []
+- id: US-GCG-3-6
+  title: Configure Coolify deployment with GitHub webhook
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-3
+  epic_id: null
+  tags: []
+- id: US-GCG-30-1
+  title: 'Test: xUnit test project created and referenced from solution'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-2
+  title: 'Test: Unit test pattern established with mocking (NSubstitute or Moq)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-3
+  title: 'Test: Integration test pattern using WebApplicationFactory with Testcontainers
+    for PostgreSQL and Redis'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-4
+  title: 'Test: ScrapedDuck client tests using WireMock or similar for HTTP mocking'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-5
+  title: 'Test: Test data builders or fixtures for common entities'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-6
+  title: 'Test: Tests run via dotnet test and report results clearly'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-7
+  title: Set up xUnit test project with mocking framework
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-8
+  title: Set up integration test infrastructure with Testcontainers
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-30-9
+  title: Create ScrapedDuck client tests with HTTP mocking
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-30
+  epic_id: null
+  tags: []
+- id: US-GCG-31-1
+  title: 'Test: Unit test pattern established for Dart services and models'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-2
+  title: 'Test: Widget test pattern established for key screens'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-3
+  title: 'Test: Mock API service created for testing without backend'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-4
+  title: 'Test: Test coverage for event data parsing and timezone conversion'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-5
+  title: 'Test: Golden tests for critical UI components (event card and daily view)'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-6
+  title: 'Test: Tests run via flutter test and report results clearly'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-7
+  title: Set up Flutter test infrastructure and mock services
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-8
+  title: Write unit tests for event models and timezone logic
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-31-9
+  title: Write widget tests for key screens
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-31
+  epic_id: null
+  tags: []
+- id: US-GCG-32-1
+  title: 'Test: GitHub Actions workflow runs on push and PR'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-2
+  title: 'Test: Backend: dotnet format check and dotnet build and dotnet test'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-3
+  title: 'Test: Frontend: dart analyze and flutter test'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-4
+  title: 'Test: Pipeline fails on lint errors or test failures'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-5
+  title: 'Test: Pipeline status badge in README'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-6
+  title: 'Test: Pipeline completes in under 5 minutes'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-7
+  title: Create GitHub Actions workflow for .NET backend
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-8
+  title: Create GitHub Actions workflow for Flutter app
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-32-9
+  title: Add status badges and pipeline optimisation
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-32
+  epic_id: null
+  tags: []
+- id: US-GCG-33-1
+  title: 'Test: .editorconfig with consistent settings for both languages'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-33
+  epic_id: null
+  tags: []
+- id: US-GCG-33-2
+  title: 'Test: C# .NET analysers configured (nullable reference types enabled and
+    CA rules)'
+  type: task
+  status: todo
+  points: 2
+  story_id: US-GCG-33
+  epic_id: null
+  tags: []
+- id: US-GCG-33-3
+  title: 'Test: Dart analysis_options.yaml with strict mode and recommended lint rules'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-33
+  epic_id: null
+  tags: []
+- id: US-GCG-33-4
+  title: 'Test: Pre-commit formatting documented (dotnet format and dart format)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-33
+  epic_id: null
+  tags: []
+- id: US-GCG-33-5
+  title: 'Test: IDE settings files (.vscode or equivalent) for consistent developer
+    experience'
+  type: task
+  status: todo
+  points: 1
+  story_id: US-GCG-33
+  epic_id: null
+  tags: []
+- id: US-GCG-33-6
+  title: Configure code quality tooling for both stacks
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-33
+  epic_id: null
+  tags: []
+- id: US-GCG-34-1
+  title: 'Test: API endpoints are versioned (e.g. /api/v1/events)'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-34-2
+  title: 'Test: Swagger/OpenAPI spec generated from code annotations'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-34-3
+  title: 'Test: Swagger UI available in development mode'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-34-4
+  title: 'Test: API response models documented with examples'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-34-5
+  title: 'Test: Breaking change policy documented'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-34-6
+  title: Implement API versioning with /api/v1/ prefix
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-34-7
+  title: Configure Swagger/OpenAPI documentation
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-34
+  epic_id: null
+  tags: []
+- id: US-GCG-35-1
+  title: 'Test: E2E test verifies: mock ScrapedDuck data is ingested and served via
+    API and displayed in app'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-35-2
+  title: 'Test: Flutter integration tests run against a local backend'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-35-3
+  title: 'Test: Test environment spins up via Docker Compose'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-35-4
+  title: 'Test: Critical user journeys covered: view today''s events and flag an event
+    and view upcoming events'
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-35-5
+  title: 'Test: Tests can run in CI'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-35-6
+  title: Create E2E test Docker Compose environment
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-35-7
+  title: Write Flutter integration tests for critical journeys
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-35
+  epic_id: null
+  tags: []
+- id: US-GCG-36-1
+  title: 'Test: ScrapedDuck outage: backend serves cached data from PostgreSQL with
+    degraded status'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-2
+  title: 'Test: Redis outage: API falls back to PostgreSQL queries with no user-visible
+    error'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-3
+  title: 'Test: HTTP client uses retry with exponential backoff for ScrapedDuck calls'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-4
+  title: 'Test: Circuit breaker pattern prevents cascading failures on sustained outages'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-5
+  title: 'Test: Health endpoint reports degraded status when dependencies are down'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-6
+  title: 'Test: Ingestion job alerts on repeated failures (logged at Warning/Error
+    level)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-7
+  title: Implement HTTP retry with Polly for ScrapedDuck client
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-36-8
+  title: Implement graceful degradation in API endpoints
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-36
+  epic_id: null
+  tags: []
+- id: US-GCG-4-1
+  title: 'Test: Background job fetches from ScrapedDuck API on a configurable schedule'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-2
+  title: 'Test: Raw event data is parsed and normalised into a consistent schema'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-3
+  title: 'Test: Events are stored in PostgreSQL with proper fields (title name dates
+    buffs type)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-4
+  title: 'Test: Summarised event data is cached in Redis'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-5
+  title: 'Test: Job handles ScrapedDuck downtime gracefully by serving cached data'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-6
+  title: 'Test: Job logs success/failure for observability'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-7
+  title: Design and create PostgreSQL event schema with EF Core migrations
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-8
+  title: Implement ScrapedDuck API client
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-4-9
+  title: Implement scheduled background ingestion job
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-4
+  epic_id: null
+  tags: []
+- id: US-GCG-5-1
+  title: 'Test: GET endpoint returns today''s active events with buffs and bonuses'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-2
+  title: 'Test: GET endpoint returns upcoming events within a configurable window'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-3
+  title: 'Test: Responses are served from Redis cache with PostgreSQL fallback'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-4
+  title: 'Test: API returns properly shaped JSON matching the app''s data model'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-5
+  title: 'Test: API enforces rate limiting to prevent abuse'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-6
+  title: 'Test: Health check endpoint exists for monitoring'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-7
+  title: Implement GET /events/active endpoint
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-8
+  title: Implement GET /events/upcoming endpoint
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-5-9
+  title: Add rate limiting and health check endpoint
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-5
+  epic_id: null
+  tags: []
+- id: US-GCG-6-1
+  title: 'Test: App launches on both iOS and Android simulators'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-6
+  epic_id: null
+  tags: []
+- id: US-GCG-6-2
+  title: 'Test: Basic app structure with navigation is in place'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-6
+  epic_id: null
+  tags: []
+- id: US-GCG-6-3
+  title: 'Test: App theme and styling foundations established'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-6
+  epic_id: null
+  tags: []
+- id: US-GCG-6-4
+  title: 'Test: API service layer scaffolded for backend communication'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-6
+  epic_id: null
+  tags: []
+- id: US-GCG-6-5
+  title: Set up Flutter app structure with state management
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-6
+  epic_id: null
+  tags: []
+- id: US-GCG-6-6
+  title: Create API service layer and event data models
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-6
+  epic_id: null
+  tags: []
+- id: US-GCG-7-1
+  title: 'Test: Today''s active events are displayed with buff/bonus details'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-2
+  title: 'Test: Events show start and end times in the user''s local timezone'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-3
+  title: 'Test: Event types are visually distinct (community day vs spotlight hour
+    vs raid hour etc)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-4
+  title: 'Test: Active buffs are prominently displayed (2x candy and bonus XP etc)'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-5
+  title: 'Test: Pull-to-refresh updates event data from the API'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-6
+  title: 'Test: Loading and error states are handled gracefully'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-7
+  title: Build daily active events screen
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-8
+  title: Build event detail view
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-7-9
+  title: Implement event type visual differentiation
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-7
+  epic_id: null
+  tags: []
+- id: US-GCG-8-1
+  title: 'Test: User can tap to flag/unflag any event'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-8
+  epic_id: null
+  tags: []
+- id: US-GCG-8-2
+  title: 'Test: Flagged events are visually distinct in the calendar view'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-8
+  epic_id: null
+  tags: []
+- id: US-GCG-8-3
+  title: 'Test: Flags persist across app restarts using local storage'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-8
+  epic_id: null
+  tags: []
+- id: US-GCG-8-4
+  title: 'Test: Flagged events section or filter is available'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-8
+  epic_id: null
+  tags: []
+- id: US-GCG-8-5
+  title: Implement local flag storage with SharedPreferences or Hive
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-8
+  epic_id: null
+  tags: []
+- id: US-GCG-8-6
+  title: Add flag toggle UI to event cards and detail view
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-8
+  epic_id: null
+  tags: []
+- id: US-GCG-9-1
+  title: 'Test: Event data is cached locally on the device after each API sync'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+- id: US-GCG-9-2
+  title: 'Test: App displays cached data when offline'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+- id: US-GCG-9-3
+  title: 'Test: App indicates when data may be stale due to offline mode'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+- id: US-GCG-9-4
+  title: 'Test: Data syncs automatically when network connectivity is restored'
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+- id: US-GCG-9-5
+  title: 'Test: Local cache is cleared and refreshed on a reasonable schedule'
+  type: task
+  status: done
+  points: 1
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+- id: US-GCG-9-6
+  title: Implement local SQLite cache for event data
+  type: task
+  status: done
+  points: 2
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+- id: US-GCG-9-7
+  title: Implement offline-first data loading strategy
+  type: task
+  status: done
+  points: 3
+  story_id: US-GCG-9
+  epic_id: null
+  tags: []
+total_points: 603
+completed_points: 533
+story_count: 36
+task_count: 281
+epic_count: 5

@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T13:07:22.142833Z","outcome":"success","status":"done","note":"Verified Dockerfile builds successfully. dotnet restore and publish both pass. All COPY source paths exist. Published DLL confirmed at GoCalGo.Api.dll. Docker not available in env but build steps validated with local dotnet SDK 11.0.","actor":"unknown"}

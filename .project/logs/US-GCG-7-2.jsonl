@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T14:46:01.648070Z","outcome":"success","status":"done","note":"Created test/services/event_local_timezone_test.dart with 12 tests verifying the full pipeline (API → EventsService → EventTimeDisplay) for both UTC and local-time events. All tests pass.","actor":"unknown"}

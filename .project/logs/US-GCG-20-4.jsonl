@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-20T11:16:08.400182Z","outcome":"success","status":"done","note":"Created docs/event-dto-contract.md defining shared DTOs (EventDto, Buff, Pokemon, EventsResponse) with enums, serialisation contract, and implementation checklist for both .NET and Flutter. Cross-referenced from scrapedduck-api.md and buff-bonus-mapping.md.","actor":"unknown"}

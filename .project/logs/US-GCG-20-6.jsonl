@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-20T11:25:42.722891Z","outcome":"success","status":"done","note":"Tested all 4 ScrapedDuck API endpoints live (all returned 200 OK with valid JSON). Created docs/api-reliability-assessment.md covering rate limits, reliability risks, data quality quirks, and recommended mitigations. Cross-referenced from main API doc.","actor":"unknown"}

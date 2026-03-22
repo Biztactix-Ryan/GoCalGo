@@ -1,0 +1,13 @@
+@GoCalGo.Api_HostAddress = http://localhost:5121
+
+#if (EnableOpenAPI)
+GET {{GoCalGo.Api_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+#endif
+
+GET {{GoCalGo.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

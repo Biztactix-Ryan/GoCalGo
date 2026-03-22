@@ -1,0 +1,2 @@
+{"timestamp":"2026-03-20T11:39:20.974038Z","outcome":"blocked","status":"blocked","note":"No .NET minimal API project exists yet. Backend dir only has GoCalGo.Contracts with DTOs — no .csproj, Program.cs, or sln file. Blocked on US-GCG-1-7 (Scaffold .NET minimal API project) which is still todo.","actor":"unknown"}
+{"timestamp":"2026-03-21T09:52:30.032212Z","outcome":"info","status":"todo","note":"Audit: unblocked. Dependency US-GCG-1-7 is done — .NET project (GoCalGo.Api.csproj, Program.cs) exists in src/backend/.","actor":"unknown"}

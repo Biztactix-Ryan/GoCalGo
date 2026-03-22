@@ -1,0 +1,31 @@
+{
+  "hosting": {
+    "public": "src/web/public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  },
+  "messaging": {
+    "enabled": true
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "gocalgo",
+          "appId": "REPLACE_WITH_ANDROID_APP_ID",
+          "fileOutput": "src/app/android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "gocalgo",
+          "appId": "REPLACE_WITH_IOS_APP_ID",
+          "fileOutput": "src/app/ios/Runner/GoogleService-Info.plist"
+        }
+      }
+    }
+  }
+}

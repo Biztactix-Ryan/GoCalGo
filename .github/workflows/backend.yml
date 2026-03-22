@@ -1,0 +1,48 @@
+name: Backend
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/backend/**'
+      - '.github/workflows/backend.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/backend/**'
+      - '.github/workflows/backend.yml'
+
+jobs:
+  backend:
+    name: .NET Build & Test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '11.0.x'
+
+      - name: Cache NuGet packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.nuget/packages
+          key: nuget-${{ runner.os }}-${{ hashFiles('src/backend/**/*.csproj') }}
+          restore-keys: |
+            nuget-${{ runner.os }}-
+
+      - name: Restore dependencies
+        run: dotnet restore GoCalGo.slnx
+
+      - name: Check formatting
+        run: dotnet format GoCalGo.slnx --verify-no-changes
+
+      - name: Build
+        run: dotnet build GoCalGo.slnx --no-restore --configuration Release
+
+      - name: Test
+        run: dotnet test GoCalGo.slnx --no-build --configuration Release --verbosity normal

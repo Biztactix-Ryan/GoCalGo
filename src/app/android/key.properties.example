@@ -1,0 +1,19 @@
+# Android release signing configuration
+# Copy this file to key.properties and fill in your values.
+# NEVER commit key.properties to version control.
+#
+# Generate a keystore:
+#   keytool -genkey -v -keystore ~/gocalgo-release.jks \
+#     -keyalg RSA -keysize 2048 -validity 10000 \
+#     -alias gocalgo
+#
+# Environment variables (from .env) map to these properties:
+#   ANDROID_KEYSTORE_PATH     -> storeFile
+#   ANDROID_KEYSTORE_PASSWORD -> storePassword
+#   ANDROID_KEY_ALIAS         -> keyAlias
+#   ANDROID_KEY_PASSWORD      -> keyPassword
+
+storeFile=/path/to/gocalgo-release.jks
+storePassword=
+keyAlias=gocalgo
+keyPassword=

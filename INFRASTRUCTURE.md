@@ -9,6 +9,8 @@ Production only. No separate dev or staging environments at this stage. Local de
 ## CI/CD
 Coolify handles builds automatically. A GitHub webhook fires on push to the main branch, triggering Coolify to build and deploy the updated container. No separate CI pipeline (e.g. GitHub Actions) — Coolify is the build system.
 
+For step-by-step setup instructions, see [docs/coolify-deployment.md](docs/coolify-deployment.md).
+
 ## Services & Dependencies
 
 | Service | Role | Details |

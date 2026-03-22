@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-22T02:49:02.047959Z","outcome":"success","status":"done","note":"Created docker-compose.e2e.yml with PostgreSQL, Redis, WireMock (mock ScrapedDuck), .NET API, and a seed container. WireMock serves e2e/wiremock/__files/events.json with 5 test events. Seed script creates test device token and notification preferences.","actor":"unknown"}

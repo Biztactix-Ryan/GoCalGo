@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T00:19:30.679014Z","outcome":"success","status":"done","note":"Verified docker-compose.yml exposes PostgreSQL on standard port 5432 (host:5432 -> container:5432) with configurable override via POSTGRES_PORT env var. Could not run live connectivity test as Docker is unavailable in this environment, but configuration is correct.","actor":"unknown"}

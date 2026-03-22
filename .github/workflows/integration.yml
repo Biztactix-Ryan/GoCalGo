@@ -1,0 +1,120 @@
+name: Integration Tests
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'docker-compose.yml'
+      - '.github/workflows/integration.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'docker-compose.yml'
+      - '.github/workflows/integration.yml'
+
+jobs:
+  # Self-contained integration tests using mock data (no backend needed)
+  widget-integration:
+    name: Widget Integration Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src/app
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.27.0'
+          channel: stable
+          cache: true
+
+      - name: Cache pub packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.pub-cache
+          key: pub-${{ runner.os }}-${{ hashFiles('src/app/pubspec.lock') }}
+          restore-keys: |
+            pub-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Run user journey integration tests
+        run: flutter test integration_test/user_journeys_test.dart
+
+  # E2E tests that run against the real backend via Docker Compose
+  e2e:
+    name: E2E Tests (Docker Compose)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create .env for Docker Compose
+        run: |
+          cat > .env << 'EOF'
+          POSTGRES_DB=gocalgo
+          POSTGRES_USER=gocalgo
+          POSTGRES_PASSWORD=ci-test-password
+          SCRAPEDDUCK_BASE_URL=https://pokemon-go-api.github.io/pokemon-go-api
+          SCRAPEDDUCK_CACHE_EXPIRATION_MINUTES=30
+          FIREBASE_PROJECT_ID=gocalgo-test
+          FIREBASE_CREDENTIALS_JSON=
+          ASPNETCORE_ENVIRONMENT=Development
+          EOF
+
+      - name: Start backend services
+        run: docker compose up -d --build --wait
+        timeout-minutes: 5
+
+      - name: Wait for API health check
+        run: |
+          for i in $(seq 1 30); do
+            if curl -sf http://localhost:5000/health > /dev/null 2>&1; then
+              echo "API is healthy"
+              exit 0
+            fi
+            echo "Waiting for API... ($i/30)"
+            sleep 2
+          done
+          echo "API failed to become healthy"
+          docker compose logs api
+          exit 1
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: '3.27.0'
+          channel: stable
+          cache: true
+
+      - name: Cache pub packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.pub-cache
+          key: pub-${{ runner.os }}-${{ hashFiles('src/app/pubspec.lock') }}
+          restore-keys: |
+            pub-${{ runner.os }}-
+
+      - name: Install dependencies
+        working-directory: src/app
+        run: flutter pub get
+
+      - name: Run API client integration tests
+        working-directory: src/app
+        run: flutter test integration_test/api_client_test.dart
+
+      - name: Run app integration tests
+        working-directory: src/app
+        run: flutter test integration_test/app_test.dart
+
+      - name: Show logs on failure
+        if: failure()
+        run: docker compose logs
+
+      - name: Stop services
+        if: always()
+        run: docker compose down -v

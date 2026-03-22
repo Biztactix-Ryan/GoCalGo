@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T04:14:09.644565Z","outcome":"success","status":"done","note":"Created FcmEnabledTests.cs with 5 tests verifying Firebase/FCM infrastructure: Firebase section in appsettings, ProjectId configured, docker-compose passes Firebase__ProjectId and Firebase__CredentialsJson, .env.example defines FIREBASE_CREDENTIALS_JSON. All 5 tests pass.","actor":"unknown"}

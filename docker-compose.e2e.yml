@@ -1,0 +1,92 @@
+# E2E Testing Docker Compose
+# Spins up the full stack with a WireMock mock for ScrapedDuck.
+#
+# Usage:
+#   docker compose -f docker-compose.e2e.yml up --build --abort-on-container-exit
+#   docker compose -f docker-compose.e2e.yml down -v
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: gocalgo_e2e
+      POSTGRES_USER: e2e
+      POSTGRES_PASSWORD: e2e_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - e2e-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U e2e -d gocalgo_e2e"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6380:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  wiremock:
+    image: wiremock/wiremock:3.13.0
+    ports:
+      - "8181:8080"
+    volumes:
+      - ./e2e/wiremock:/home/wiremock
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/__admin/mappings"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 5s
+
+  api:
+    build:
+      context: src/backend
+      dockerfile: GoCalGo.Api/Dockerfile
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      wiremock:
+        condition: service_healthy
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__PostgreSQL: "Host=postgres;Port=5432;Database=gocalgo_e2e;Username=e2e;Password=e2e_password"
+      ConnectionStrings__Redis: "redis:6379"
+      ScrapedDuck__BaseUrl: "http://wiremock:8080"
+      ScrapedDuck__CacheExpirationMinutes: "5"
+      ScrapedDuck__ScheduleIntervalMinutes: "60"
+      Firebase__ProjectId: "e2e-fake-project"
+      Firebase__CredentialsPath: ""
+    ports:
+      - "5001:8080"
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "-q", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  # One-shot container that seeds test data after the API is healthy
+  seed:
+    image: postgres:16-alpine
+    depends_on:
+      api:
+        condition: service_healthy
+    volumes:
+      - ./e2e/seed-e2e.sql:/seed.sql:ro
+    entrypoint: ["sh", "-c", "psql -h postgres -U e2e -d gocalgo_e2e -f /seed.sql"]
+    environment:
+      PGPASSWORD: e2e_password
+
+volumes:
+  e2e-pgdata:

@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T22:09:17.407743Z","outcome":"success","status":"done","note":"Added firebase_core and firebase_messaging to pubspec.yaml. Added FirebaseDeviceTokenService concrete implementation with getToken(), onTokenRefresh, and requestPermission(). Updated main.dart to initialize Firebase on startup. Exported from services barrel file.","actor":"unknown"}

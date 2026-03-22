@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T12:20:04.121541Z","outcome":"success","status":"done","note":"Added Swashbuckle.AspNetCore.SwaggerUI package. Configured Swagger UI at /swagger in development mode only. Wrote 2 tests: SwaggerUi_ReturnsOk_InDevelopment and SwaggerUi_NotAvailable_InProduction. All 121 API tests pass.","actor":"unknown"}

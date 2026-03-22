@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GoCalGo.Api.Tests/GoCalGo.Api.Tests.csproj" />
+  <Project Path="GoCalGo.Api/GoCalGo.Api.csproj" />
+</Solution>

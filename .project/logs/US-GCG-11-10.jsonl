@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T23:56:24.803244Z","outcome":"success","status":"done","note":"Unflag cancellation logic was already fully implemented: NotificationStore.CancelByEventAndDeviceAsync() marks pending notifications as Cancelled, and the POST /flags endpoint calls it on unflag. All 6 tests pass.","actor":"unknown"}

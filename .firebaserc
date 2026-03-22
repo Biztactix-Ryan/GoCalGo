@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "gocalgo"
+  },
+  "targets": {},
+  "etags": {},
+  "apps": {
+    "android": {
+      "packageName": "com.gocalgo.app"
+    },
+    "ios": {
+      "bundleId": "com.gocalgo.app"
+    }
+  }
+}

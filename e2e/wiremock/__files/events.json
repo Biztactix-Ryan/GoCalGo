@@ -1,0 +1,95 @@
+[
+  {
+    "eventID": "e2e-community-day-beldum",
+    "name": "Community Day: Beldum",
+    "eventType": "community-day",
+    "heading": "Catch Beldum and evolve for an exclusive move!",
+    "image": "https://example.com/images/community-day-beldum.png",
+    "link": "https://example.com/events/community-day-beldum",
+    "start": "2026-03-28 11:00",
+    "end": "2026-03-28 14:00",
+    "extraData": {
+      "generic": {
+        "hasSpawns": true,
+        "hasFieldResearchTasks": true
+      },
+      "communityday": {
+        "spawns": [
+          { "name": "Beldum", "image": "https://example.com/beldum.png", "canBeShiny": true }
+        ],
+        "bonuses": [
+          { "text": "3x Catch XP", "image": "https://example.com/xp.png" },
+          { "text": "2x Catch Candy", "image": "https://example.com/candy.png" },
+          { "text": "3-hour Lure Modules", "image": "https://example.com/lure.png" }
+        ],
+        "bonusDisclaimers": ["Eggs must be placed in Incubators during event hours"]
+      }
+    }
+  },
+  {
+    "eventID": "e2e-spotlight-magikarp",
+    "name": "Spotlight Hour: Magikarp",
+    "eventType": "pokemon-spotlight-hour",
+    "heading": "Magikarp will appear more frequently in the wild!",
+    "image": "https://example.com/images/spotlight-magikarp.png",
+    "link": "https://example.com/events/spotlight-magikarp",
+    "start": "2026-03-24T18:00:00Z",
+    "end": "2026-03-24T19:00:00Z",
+    "extraData": {
+      "spotlighthour": {
+        "pokemon": { "name": "Magikarp", "image": "https://example.com/magikarp.png", "canBeShiny": true },
+        "bonus": { "text": "2x Transfer Candy", "image": "https://example.com/candy.png" }
+      }
+    }
+  },
+  {
+    "eventID": "e2e-raid-hour-rayquaza",
+    "name": "Raid Hour: Mega Rayquaza",
+    "eventType": "raid-hour",
+    "heading": "Mega Rayquaza appears in five-star raids!",
+    "image": "https://example.com/images/raid-mega-rayquaza.png",
+    "link": "https://example.com/events/raid-mega-rayquaza",
+    "start": "2026-03-25T18:00:00Z",
+    "end": "2026-03-25T19:00:00Z",
+    "extraData": {}
+  },
+  {
+    "eventID": "e2e-adventure-week",
+    "name": "Adventure Week 2026",
+    "eventType": "event",
+    "heading": "Explore, hatch, and discover rare fossil Pokemon!",
+    "image": "https://example.com/images/adventure-week.png",
+    "link": "https://example.com/events/adventure-week-2026",
+    "start": "2026-03-20T00:00:00Z",
+    "end": "2026-03-30T23:59:00Z",
+    "extraData": {
+      "generic": {
+        "hasSpawns": true,
+        "hasFieldResearchTasks": true
+      },
+      "event": {
+        "bonuses": [
+          { "text": "2x Buddy Candy", "image": "https://example.com/candy.png" },
+          { "text": "1/2 Egg Hatch Distance", "image": "https://example.com/egg.png" }
+        ]
+      }
+    }
+  },
+  {
+    "eventID": "e2e-gbl-interlude",
+    "name": "GO Battle League: Interlude Season",
+    "eventType": "go-battle-league",
+    "heading": "Great League, Ultra League, and Master League rotations",
+    "image": "https://example.com/images/gbl-interlude.png",
+    "link": "https://example.com/events/gbl-interlude",
+    "start": "2026-03-01T00:00:00Z",
+    "end": "2026-04-30T23:59:00Z",
+    "extraData": {
+      "gobattleleague": {
+        "bonuses": [
+          { "text": "4x Stardust from GBL rewards", "image": "https://example.com/stardust.png" }
+        ]
+      }
+    }
+  }
+]

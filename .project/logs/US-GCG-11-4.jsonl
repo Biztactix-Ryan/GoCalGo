@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T22:36:15.276103Z","outcome":"success","status":"done","note":"Created NotificationDeliveryPlatformTests.cs with 15 tests verifying FCM delivery to both iOS and Android: scheduling works for both platforms, firebase.json configures both, Flutter includes firebase_messaging, and backend accepts both platform values.","actor":"unknown"}

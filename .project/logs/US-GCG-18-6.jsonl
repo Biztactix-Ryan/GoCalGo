@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T05:23:20.700121Z","outcome":"success","status":"done","note":"Added production migration strategy section to README.md documenting: dev auto-migrate via Database.Migrate(), production manual-apply workflow with CLI and SQL script options, and rationale for manual over auto-migrate.","actor":"unknown"}

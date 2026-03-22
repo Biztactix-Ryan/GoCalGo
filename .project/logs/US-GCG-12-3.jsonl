@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-22T00:10:37.327033Z","outcome":"success","status":"done","note":"Added foreground notification handling (onMessage) to NotificationNavigationService. Wrote 6 new foreground tests + 1 integration test covering all three app states (terminated, background, foreground). All 18 tests pass.","actor":"unknown"}

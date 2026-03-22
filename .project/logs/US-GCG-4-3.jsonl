@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T08:01:26.304522Z","outcome":"success","status":"done","note":"Created EventStorageTests.cs with 9 tests verifying Event persistence: name, event type, dates (including nulls), buffs with categories, all enum values, all fields round-trip, and cascade delete. Added EF Core InMemory package to test project.","actor":"unknown"}

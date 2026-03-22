@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T04:28:33.878228Z","outcome":"success","status":"done","note":"Verified credentials are stored securely: .gitignore excludes google-services.json, GoogleService-Info.plist, .env and .env.*; .env.example has only blank placeholders; no credential files tracked in git; Firebase Admin SDK creds referenced via env var path.","actor":"unknown"}

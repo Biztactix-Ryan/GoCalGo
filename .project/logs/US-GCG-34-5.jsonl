@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T12:51:19.634607Z","outcome":"success","status":"done","note":"Created docs/api-breaking-change-policy.md covering: definition of breaking vs non-breaking changes, URL-based versioning strategy, migration window policy, client expectations, and DTO contract reference.","actor":"unknown"}

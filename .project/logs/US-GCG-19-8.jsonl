@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-20T23:55:34.296674Z","outcome":"success","status":"done","note":"Enhanced environment.dart with ENV name field and isDevelopment/isProduction helpers. Created config/dev.env and config/prod.env for --dart-define-from-file usage. Added tests for new env name fields. Build commands documented in environment.dart docstring.","actor":"unknown"}

@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T21:15:54.593274Z","outcome":"success","status":"done","note":"Added explicit pub package caching to the existing Flutter CI workflow. All steps were already present (checkout, setup Flutter, pub get, dart analyze, flutter test). Added actions/cache@v4 for ~/.pub-cache keyed by pubspec.lock.","actor":"unknown"}

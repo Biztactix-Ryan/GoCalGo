@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T20:19:38.020133Z","outcome":"success","status":"done","note":"Created 9 golden tests: 6 for EventCard variants (default, flagged, community day, spotlight hour, raid hour, multiple buffs) and 3 for HomeScreen daily view (with events, empty, flagged). All pass with generated reference images.","actor":"unknown"}

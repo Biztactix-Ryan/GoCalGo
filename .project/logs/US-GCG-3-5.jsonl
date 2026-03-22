@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T13:20:32.017985Z","outcome":"success","status":"done","note":"Optimised Dockerfile: alpine base images, multi-stage build (restore/publish/runtime), non-root user (appuser), HEALTHCHECK against /health endpoint, --runtime linux-musl-x64 for smaller image. Docker not available in env to test build, but syntax verified.","actor":"unknown"}

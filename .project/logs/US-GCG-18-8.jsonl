@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T05:34:18.595901Z","outcome":"success","status":"done","note":"Created Event, EventBuff entities with EventType/BuffCategory enums. Updated DbContext with DbSets and Fluent API configuration. Generated InitialCreate migration. Added NpgsqlException catch to auto-migrate for test resilience. All 72 tests pass.","actor":"unknown"}

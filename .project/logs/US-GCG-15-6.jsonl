@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-22T04:26:55.309729Z","outcome":"blocked","status":"todo","note":"Cannot grab: parent story US-GCG-15 is in backlog status. Story has unmet dependencies (US-GCG-13, US-GCG-14, US-GCG-17). Task also requires Google Play Console access and signing credentials.","actor":"unknown"}

@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T00:21:58.669338Z","outcome":"success","status":"done","note":"Verified Redis accessible on standard port 6379. docker-compose.yml maps ${REDIS_PORT:-6379}:6379. All 3 RedisSettings tests pass confirming localhost:6379 binding.","actor":"unknown"}

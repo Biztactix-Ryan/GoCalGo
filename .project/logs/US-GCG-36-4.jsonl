@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T11:00:55.594652Z","outcome":"success","status":"done","note":"Added circuit breaker policy (Polly) to ScrapedDuck HTTP client in Program.cs. Created 4 tests verifying: circuit opens after consecutive failures, prevents requests during open state, allows requests after break duration (half-open), and doesn't open on successful requests.","actor":"unknown"}

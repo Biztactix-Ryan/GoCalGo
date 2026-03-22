@@ -1,0 +1,17 @@
+// Signing.xcconfig
+// iOS code signing configuration for GoCalGo
+//
+// Values are read from environment variables at build time.
+// Set these in your .env file or CI environment:
+//   IOS_TEAM_ID              — Apple Developer Team ID
+//   IOS_CODE_SIGN_IDENTITY   — e.g. "Apple Distribution: Team Name (XXXXXXXXXX)"
+//   IOS_PROVISIONING_PROFILE — Provisioning profile name or UUID
+//
+// For local development with automatic signing, comment out these lines
+// and enable "Automatically manage signing" in Xcode.
+
+PRODUCT_BUNDLE_IDENTIFIER = com.gocalgo.app
+DEVELOPMENT_TEAM = $(IOS_TEAM_ID)
+CODE_SIGN_IDENTITY = $(IOS_CODE_SIGN_IDENTITY)
+PROVISIONING_PROFILE_SPECIFIER = $(IOS_PROVISIONING_PROFILE)
+CODE_SIGN_STYLE = Manual

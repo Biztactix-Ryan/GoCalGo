@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T07:17:54.178842Z","outcome":"success","status":"done","note":"Created CacheRedisDowntimeFallbackTests.cs with 7 tests: GetAsync returns null on Redis failure, SetAsync/InvalidateAsync complete silently, cache-aside falls back to DB, repeated calls always fall back, null DB results handled, and Redis recovery resumes normal caching.","actor":"unknown"}

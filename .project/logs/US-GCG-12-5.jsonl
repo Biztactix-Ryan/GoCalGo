@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-22T00:36:27.678504Z","outcome":"success","status":"done","note":"Created NotificationDisplayService with flutter_local_notifications for foreground display, Android notification channel (gocalgo_events, high importance), and iOS permission request wired into onboarding. 8 new tests passing.","actor":"unknown"}

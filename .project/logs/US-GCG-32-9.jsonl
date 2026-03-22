@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T21:49:09.316116Z","outcome":"success","status":"done","note":"Removed redundant ci.yml (ran both jobs on every push without path filtering). backend.yml and flutter.yml already had proper path filtering. Updated README badges to reference both path-filtered workflows.","actor":"unknown"}

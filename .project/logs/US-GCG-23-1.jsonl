@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T16:50:48.116455Z","outcome":"success","status":"done","note":"Added `days` param to EventsService.getUpcomingEvents() for 7-day window filtering. Created test file with 5 tests covering: inclusion within window, exclusion beyond window, exclusion of past/active events, backward-compatible behavior without days param, and ordering.","actor":"unknown"}

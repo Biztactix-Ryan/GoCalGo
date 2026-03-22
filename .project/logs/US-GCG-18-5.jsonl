@@ -1,0 +1,2 @@
+{"timestamp":"2026-03-21T05:19:31.368728Z","outcome":"blocked","status":"blocked","note":"No seed data script exists in the codebase. Task US-GCG-18-9 (Create seed data and document migration workflow) must be completed first. Checked: scripts/, src/, DbContext HasData calls, docker-compose — nothing seed-related found.","actor":"unknown"}
+{"timestamp":"2026-03-21T09:52:32.263844Z","outcome":"info","status":"todo","note":"Audit: unblocked. Dependency US-GCG-18-9 is done — scripts/seed-data.sql exists in the repo.","actor":"unknown"}

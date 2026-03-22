@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T17:24:40.992813Z","outcome":"success","status":"done","note":"Implemented bottom navigation using GoRouter StatefulShellRoute.indexedStack with MainShell widget. Two tabs: Today (Icons.today) and Upcoming (Icons.date_range). Event detail route uses parentNavigatorKey to render full-screen above the nav bar.","actor":"unknown"}

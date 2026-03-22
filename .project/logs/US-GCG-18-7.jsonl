@@ -1,0 +1,1 @@
+{"timestamp":"2026-03-21T05:26:25.498668Z","outcome":"success","status":"done","note":"EF Core setup already complete: Npgsql.EntityFrameworkCore.PostgreSQL package, GoCalGoDbContext with DbContextOptions, UseNpgsql registration in Program.cs with connection string from DatabaseSettings. Tests exist but require running PostgreSQL instance.","actor":"unknown"}
